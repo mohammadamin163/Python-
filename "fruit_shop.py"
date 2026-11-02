@@ -1,0 +1,28 @@
+while True:
+    print("\n--- Fruit Shop Menu ---")
+    print("1. Apple")
+    print("2. Banana")
+    print("3. Orange")
+    print("4. cherry")
+    print("0. Exit")
+
+    choice = input("Choose a fruit: ")
+
+    if choice == "1":
+        print("You selected Apple!")
+
+    elif choice == "2":
+        print("You selected Banana!")
+
+    elif choice == "3":
+        print("You selected Orange!")
+
+    elif choice == "4":
+        print("You selected  cherry!")
+
+    elif choice == "0":
+        print("Thank you for shopping!")
+        break
+
+    else:
+        print("Invalid choice! Please try again.")
